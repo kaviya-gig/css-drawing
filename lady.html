@@ -1,0 +1,332 @@
+<html>
+    <head>
+        <title>bywdg</title>
+        <style>
+           body{
+               background-color: rgb(255, 196, 1);
+           }
+           .contain{
+               width: 400px;
+               height:100%;      
+               position: absolute;
+              left:260px;
+              
+           }
+           .face{
+               width:60px;
+               height:80px;
+               background-color: rgb(187, 95, 8);
+               position: absolute;
+               left:160px;
+               top:80px;
+               border-radius:50% 50% 60%  60%;
+           }
+           .hair1{
+               width:40px;
+               height:50px;
+               background-color:rgb(0, 0, 0);
+               border-radius:130% 0% 160% 0%;
+               position: absolute;
+               left:160px;
+               top:70px;
+               transform:rotate(10deg);
+           }
+           .hair2{
+               width:40px;
+               height:60px;
+             
+               border-left:20px solid black ;
+               border-radius: 160% 0% 0% 40%;
+               position: absolute;
+               left:15px;
+               top:5px;
+               transform: rotate(120deg);
+               
+           }
+           .konda{
+                width:30px;
+                height:35px;
+                background-color:rgb(0, 0, 0);
+                position:absolute;
+                border-radius:50%;
+                left:200px; 
+                top:120px;
+           }
+           .neck{
+               position: absolute;
+               width:25px;
+               height:30px;
+               background-color:rgb(187, 95, 8);
+               left:178px;
+               top:150px;
+           }
+           .nm1{
+            position: absolute;
+            width:20px;
+            height:31px;
+            left:22px;
+            background-color: rgb(255, 196, 1);
+            border-radius:60% 0% 0% 30%;
+           }
+           .nm2{
+            position: absolute;
+            width:20px;
+            height:31px;
+            background-color: rgb(255, 196, 1);
+            border-radius:0% 60% 30% 0%;
+            left:-17px;
+           }
+           .body{
+               width:90px;
+               height:70px;
+               background-color:rgb(131, 69, 11);
+               position: absolute;
+               top:103px;
+               left:5px;
+               border-radius:20% 20% 0% 0%;
+               transform: rotate(-10deg);
+           }
+           .bl{
+               width:90px;
+               height:70px;
+               background-color:black ;
+               position: absolute;
+             
+               border-radius:20% 20% 0% 0%;
+               
+           }
+           .bln{
+            width:60px;
+               height:40px;
+               background-color:rgb(187, 95, 8);
+               position: absolute;
+               left:15px;
+               top:-0.2px;
+             border-radius:0%  0% 100% 100%;
+           }
+          
+          .hip{
+              width:80px;
+              height:20px;
+              background-color:rgb(187, 95, 8);
+              position:absolute;
+              top:70px;
+              left:5px;
+          }
+          .hiphideR{
+              width:30px;
+              height:30px;
+              background-color:  rgb(255, 196, 1);
+              position: absolute;
+              left:71px;
+              top:-3px;
+              border-radius:40% ;
+          }
+          .hiphideL{
+              width:30px;
+              height:30px;
+              background-color:  rgb(255, 196, 1);
+              position: absolute;
+              left:-17px;
+              top:-3px;
+              border-radius:40% ;
+          }
+          .blhideR{
+            background-color: rgb(255, 196, 1) ;
+            position:absolute;
+            width:50px;
+            height:50px;
+            top:30px;
+            left:70px;
+            transform:rotate(13deg);
+            
+          }
+          .blhideL{
+            background-color: rgb(255, 196, 1) ;
+            position:absolute;
+            width:50px;
+            height:50px;
+            top:30px;
+            left:-124px;
+            transform:rotate(-30deg);
+          }
+         .sareebottom{
+             background-color: rgb(122, 29, 29);
+             position: absolute;
+             width:100px;
+             height:160px;
+             transform:rotate(-10deg);
+            top:187px;
+            left:24px;
+            border-radius:30% 30% 0% 0%;
+         }
+         .sbhR{
+             background-color: rgb(255, 196, 1);
+             position: absolute;
+             width:30px;
+             height:160px;
+             top:10px;
+             left:90px;
+             transform:rotate(9deg);
+
+         }
+         .sbhL{
+             background-color: rgb(255, 196, 1);
+             position: absolute;
+             width:30px;
+             height:170px;
+             
+             left:-22px;
+             transform:rotate(-7deg);
+
+         }
+         .nib{
+            background-image:linear-gradient(to right,rgb(212, 85, 12),rgb(136, 95, 34)) ;
+             position: absolute;
+             width:60px;
+             height:90px;
+             transform:rotate(-10deg);
+            top:345px;
+            left:65px;
+         
+         }
+         .nibhideR{
+             background-color:rgb(255, 196, 1);
+             height:55px;
+             width:20px;
+             position: absolute;
+            border-radius:0% 60% 0% 0%;
+             left:58px;
+             transform: rotate(-3deg);
+         }
+         .nibhideL{
+             background-color:rgb(255, 196, 1);
+             height:55px;
+             width:20px;
+             position: absolute;
+             border-radius:60% 0% 0% 0%;
+             left:-18px;
+             transform: rotate(3deg);
+         }
+         .nibhideRR{
+             background-color:rgb(255, 196, 1);
+             height:45px;
+             width:40px;
+             position: absolute;
+             top:50px;
+             left:37px;
+             border-radius:60% 0% 0% 0%;
+             transform:rotate(10deg);
+         }
+         .nibhideLR{
+             background-color:rgb(255, 196, 1);
+             height:45px;
+             width:40px;
+             position: absolute;
+             top:50px;
+             left:-17px;
+             border-radius:0% 60% 0% 0%;
+             transform:rotate(-10deg);
+         }
+         .nibline{
+             background-color: rgb(34, 33, 33);
+             height:50px;
+             width:0.5px;
+             position: absolute;
+             left:30px;
+             top:40px;
+         }
+         .nibround{
+             background-color: rgb(34, 33, 33);
+             height:3px;
+             width:3px;
+             position: absolute;
+             left:28.7px;
+             top:38px;
+             border-radius: 100%;
+         }
+         .marapu{
+             background-color:rgb(122, 29, 29);
+             width: 60px;
+             height: 90px;
+             position: absolute;
+           border-radius:40% 20% 0% 0% ;
+            left:30px;
+            transform: skewX(-25deg);
+           
+         }
+         .ncr{
+             height:4px;
+             width:4px;
+               background-image: radial-gradient(rgb(163, 82, 7) 5%,rgb(146,110,12));
+             position: absolute;
+             top:89.5px;
+             left:26.5px;
+             border-radius:100%;
+         }
+        .ncr1{
+            height:4px;
+             width:4px;
+             background-image: radial-gradient(rgb(163, 82, 7) 5%,rgb(146,110,12));
+             position: absolute;
+             top:89.5px;
+             left:30px;
+             border-radius:100%;
+        }
+        .shadow{
+            
+            width:15px;
+            height:2px;
+            position:absolute;
+            top:83px;
+            left:14px;
+            box-shadow:10px 10px 10px black;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="contain">
+            
+            <div class='neck'>
+                <div class='nm1'></div>
+                <div class='nm2'></div>
+            </div>
+            <div class='konda'></div>
+            <div class="face"></div>
+            <div class="hair1">
+            <div class="hair2"></div>
+            <div class='body'>
+                
+                <div class='bl'>
+                </div>
+                <div class='bln'><div class='blhideR'>
+                    <div class='blhideL'></div>
+                </div></div>
+                <div class="marapu"></div>
+               
+                <div class='hip'>
+                    <div class="hiphideR"></div>
+                    <div class="hiphideL"></div>
+                </div>
+            </div> <div class="marapu2"></div>
+           <div class="sareebottom">
+               <div class="sbhR"></div>
+               <div class="sbhL"></div>
+           </div>
+         
+            <div class="nib">
+              
+                <div class="nibhideR"></div>
+                <div class="nibhideL"></div>
+                <div class="nibhideRR"></div>
+                <div class="nibhideLR"></div>
+                <div class="nibline"></div>
+                <div class="nibround"></div>
+                <div class="shadow"></div>
+                <div class="ncr"></div>
+                <div class="ncr1"></div>
+            </div>
+           
+        </div>
+    </body>
+</html>
