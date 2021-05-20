@@ -1,0 +1,30 @@
+<html>
+    <head>
+       <style>
+           body{
+                background-image: url(maxresdefault.jpg);
+               
+           }
+           @keyframes noise{
+               0%{
+                background-image:url(daene90-276d4fdd-0482-4f9e-8825-90a718933c67.jpg);
+                   background-position:0 0;
+               } 
+               100%{
+                background-image:url(daene90-276d4fdd-0482-4f9e-8825-90a718933c67.jpg);
+                   background-position:100% 100%;
+               }
+               
+           }
+
+       </style>
+       <script>
+           function mf(){
+            document.getElementById('body').style.animation='noise .2s steps(10) infinite'
+        }
+       </script>
+    </head>
+    <body id='body' onmouseover="mf()">
+
+    </body>
+</html>
